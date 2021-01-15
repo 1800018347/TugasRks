@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#white">
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:text="Sign in"
+        android:textSize="100px"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Email_next"
+        android:layout_below="@+id/nama_update"
+        android:layout_marginTop="150dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/alamat_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password_next"
+        android:layout_below="@+id/password_next"
+        android:layout_marginTop="300dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:text="password" />
+    <EditText
+        android:id="@+id/jam_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="230dp"
+            android:text="Next"
+            android:textSize="60px"
+            android:background="#035FDE"/>
+    </GridLayout>
+
+</RelativeLayout>
